@@ -1,0 +1,16 @@
+.button{
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: var(--blue);
+    color: var(--white);
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: var(--trans);
+}
+.button:hover{
+    opacity: 0.8;
+}
+.button-stuck{
+    background-color: var(--gray);
+}
